@@ -22,7 +22,7 @@ class AuthorizationRolesSeeder_2 extends Seeder
     {
         // Default Roles ----------------------------------------------------------------
         Apiato::call('Authorization@CreateRoleTask', ['admin', 'Administrator', 'Administrator Role', 999]);
-
+        Apiato::call('Authorization@CreateRoleTask', ['opt-user', 'WholesalerUser', 'Wholesaler Role', 555]);
         // ...
 
     }

@@ -5,3 +5,9 @@ $router->post('/login', [
     'uses' => 'Controller@loginAdmin',
     'domain' => 'admin.'. parse_url(\Config::get('app.url'))['host'],
 ]);
+
+$router->post('/login_opt', [
+    'as'   => 'post_opt_login_form',
+    'uses' => 'Controller@loginOpt',
+    'domain' => 'opt.'. parse_url(\Config::get('app.url'))['host'],
+]);

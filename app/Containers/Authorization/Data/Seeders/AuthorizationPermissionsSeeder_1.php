@@ -24,6 +24,8 @@ class AuthorizationPermissionsSeeder_1 extends Seeder
         Apiato::call('Authorization@CreatePermissionTask', ['create-admins', 'Create new Users (Admins) from the dashboard.']);
         Apiato::call('Authorization@CreatePermissionTask', ['manage-admins-access', 'Assign users to Roles.']);
         Apiato::call('Authorization@CreatePermissionTask', ['access-dashboard', 'Access the admins dashboard.']);
+        Apiato::call('Authorization@CreatePermissionTask', ['access-opt-dashboard', 'Access the wholesalers dashboard.']);
+        Apiato::call('Authorization@CreatePermissionTask', ['access-import-wholesalers', 'Access the wholesalers import page.']);
 
         // ...
 

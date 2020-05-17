@@ -29,6 +29,10 @@ return [
                 'id' => env('CLIENT_WEB_ADMIN_ID'),
                 'secret' => env('CLIENT_WEB_ADMIN_SECRET'),
             ],
+            'opt' => [
+                'id' => env('CLIENT_WEB_ADMIN_ID'),
+                'secret' => env('CLIENT_WEB_ADMIN_SECRET'),
+            ],
         ],
         'mobile' => [
             'admin' => [
