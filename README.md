@@ -349,4 +349,3 @@ For more info contact <a href = "mailto: support@apiato.io">support@apiato.io</a
 <a name="License"></a>
 ## License
 
-[MIT](https://github.com/apiato/apiato/blob/master/LICENSE) © Mahmoud Zalt
